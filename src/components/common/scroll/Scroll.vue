@@ -56,7 +56,7 @@ export default {
         scrollTo(x,y,time=500) {
             this.bscroll && this.bscroll.scrollTo(x,y,time)
         },
-        // 结束上拉事件
+        // 结束上拉事件 数据已加载
         finishPullUp() {
             this.bscroll && this.bscroll.finishPullUp()
         },

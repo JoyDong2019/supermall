@@ -58,9 +58,9 @@ export default {
     top: 40px;
     z-index: 9;
 }
-.card {
+/* .card { */
     /* float: left; */
     /* width: calc( 100% - 35px ); */
     /* left: 25px; */
-}
+/* } */
 </style>
