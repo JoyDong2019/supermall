@@ -1,6 +1,7 @@
 <template>
     <div class="goods-item" @click="itemClick">
         <img v-lazy="showImage" alt="" @load="imageLoad">
+        <!-- @load 当整个页面及所有依赖资源如样式表和图片都已加载完成时，将处罚load事件 -->
         <div>
             <p class="title">{{goodsItem.title}}</p>
             <span class="price">￥{{goodsItem.price}}</span>
