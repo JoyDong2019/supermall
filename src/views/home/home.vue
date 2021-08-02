@@ -160,6 +160,7 @@ export default {
         },
         contentScroll(position) {
             // console.log(position);
+            //判断BackTop是否显示
             this.isShowBackTop = (-position.y) > 600
             // 2 监听是否到可以显示第二个tabcontrol的位置
             this.tabControlShow = (-position.y) > this.tabOffsetTop
