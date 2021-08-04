@@ -11,7 +11,7 @@
      }
 
  }
- // 事件格式化
+ // 时间格式化
  export function formatDate(date, fmt) {
      // y+ 1个或多个y
      // y* 0个或多个
