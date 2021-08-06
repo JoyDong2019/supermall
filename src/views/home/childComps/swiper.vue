@@ -6,7 +6,6 @@
                 <img :src="item.image" alt="" @load="loadImage">
             </a>
         </van-swipe-item>
-        
     </van-swipe>
 
 </template>
